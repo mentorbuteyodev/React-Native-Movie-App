@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 255 127 80;
+    --color-primary-2: 255 127 80;
+    --color-secondary: 255 255 255;
+    --color-secondary-2: 255 255 255;
+    --color-tertiary: 255 255 255;
+    --color-tertiary-2: 255 255 255;
+    --color-quaternary: 255 255 255;
+    --color-quaternary-2: 255 255 255;
+  }
+
+  .dark {
+    --color-primary: 255 127 80;
+    --color-primary-2: 255 127 80;
+    --color-secondary: 255 255 255;
+    --color-secondary-2: 255 255 255;
+    --color-tertiary: 255 255 255;
+    --color-tertiary-2: 255 255 255;
+    --color-quaternary: 255 255 255;
+    --color-quaternary-2: 255 255 255;
+  }
+}
